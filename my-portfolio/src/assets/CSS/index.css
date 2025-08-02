@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  .font-jetbrains-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}

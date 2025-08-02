@@ -1,0 +1,37 @@
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #00FFCC, 0 0 10px #00FFCC, 0 0 15px #00FFCC, 0 0 20px #00FFCC;
+  }
+  50% {
+    box-shadow: 0 0 10px #00FFCC, 0 0 20px #00FFCC, 0 0 30px #00FFCC, 0 0 40px #00FFCC;
+  }
+  100% {
+    box-shadow: 0 0 5px #00FFCC, 0 0 10px #00FFCC, 0 0 15px #00FFCC, 0 0 20px #00FFCC;
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #00FFCC, 0 0 10px #00FFCC;
+  }
+  50% {
+    box-shadow: 0 0 15px #00FFCC, 0 0 25px #00FFCC;
+  }
+  100% {
+    box-shadow: 0 0 5px #00FFCC, 0 0 10px #00FFCC;
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.uneven-box {
+  transform: translateY(20px); /* move it downward initially */
+  
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover .uneven-box {
+  transform: translateY(30px); /* move it further down on hover */
+}
