@@ -18,14 +18,14 @@ export const achievements = [
     image: '/Images/cert3.png',
     title: 'Dean’s Lister',
     description: 'Consistently achieved Dean’s List recognition for outstanding academic performance, maintaining a GPA of 1.750 for the first semester academic year 2023-2024.',
-    date: 'November 20, 2024',
+    date: '2023-2024',
   },
   {
     id: 4,
     image: '/Images/cert4.png',
-    title: 'Wadhwani Impactful Writing Skills',
-    description: 'Completed the Wadhwani Impactful Writing Skills program, enhancing professional communication for workplace effectiveness.',
-    date: 'January 31, 2025',
+    title: 'Pinas For',
+    description: 'E-ligtas: Blocking the Dangers of the Online World.',
+    date: 'August 20, 2021',
   },
   {
     id: 5,
@@ -33,6 +33,13 @@ export const achievements = [
     title: 'Wadhwani Impactful Writing Skills',
     description: 'Completed the Wadhwani Impactful Writing Skills program, enhancing professional communication for workplace effectiveness.',
     date: 'January 31, 2025',
+  },
+  {
+    id: 6,
+    image: '/Images/cert6.png',
+    title: 'KAPAYAPAAN: Peace Education and Role of the NSTP in PeaceBuilding',
+    description: 'Completed the Wadhwani Impactful Writing Skills program, enhancing professional communication for workplace effectiveness.',
+    date: 'September 24, 2021',
   },
 ];
 
@@ -101,5 +108,40 @@ export const figmaProjects = [
     title: 'Ttracker',
     image: '/Images/figma9.png',
     figmaLink: 'https://www.figma.com/design/SBbDdq56AZhBGuOFdoIigN/Untitled?node-id=0-1&p=f&t=duYSQNWIJvBWUqnv-0',
+  },
+];
+
+export const skills = [
+  { name: 'React', proficiency: 40 },
+  { name: 'React-Native', proficiency: 40 },
+  { name: 'HTML', proficiency: 70 },
+  { name: 'CSS', proficiency: 50 },
+  { name: 'Tailwind CSS', proficiency: 50 },
+  { name: 'JavaScript', proficiency: 35 },
+  { name: 'Python', proficiency: 35 },
+  { name: 'Laravel', proficiency: 25 },
+  { name: 'Figma', proficiency: 70 },
+];
+
+export const socialMedia = [
+  {
+    name: 'Facebook',
+    icon: '/Images/facebook.png',
+    link: 'https://www.facebook.com/martian.rebote.5',
+  },
+  {
+    name: 'Instagram',
+    icon: '/Images/instagram.png',
+    link: 'https://www.instagram.com/mars.rbt/',
+  },
+  {
+    name: 'Twitter',
+    icon: '/Images/twitter.png',
+    link: 'https://x.com/martian_rebote',
+  },
+  {
+    name: 'LinkedIn',
+    icon: '/Images/linkedin.png',
+    link: 'https://www.linkedin.com/in/martian-rebote-408274341/',
   },
 ];

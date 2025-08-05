@@ -35,3 +35,67 @@
 .image-container:hover .uneven-box {
   transform: translateY(30px); /* move it further down on hover */
 }
+
+/* Loader */
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #1A252F;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  height: 60px;
+}
+
+.loader-circle {
+  width: 20px;
+  height: 20px;
+  background: #00FFCC;
+  border-radius: 50%;
+  position: relative;
+  animation: wave 1.2s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+.loader-circle-1 { animation-delay: 0s; }
+.loader-circle-2 { animation-delay: 0.2s; }
+.loader-circle-3 { animation-delay: 0.4s; }
+
+.loader-text {
+  font-family: 'JetBrains Mono', monospace;
+  color: #4CD2BC;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: -2.5rem;
+  animation: fade 2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-15px);
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
