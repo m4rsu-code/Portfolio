@@ -1,3 +1,5 @@
+export const cvLink = 'https://drive.google.com/file/d/1Zwb1bNrc2ImbXF8YS0FMQol_cuqv8BNC/view?usp=sharing';
+
 export const achievements = [
   {
     id: 1,
@@ -23,7 +25,7 @@ export const achievements = [
   {
     id: 4,
     image: '/Images/cert4.png',
-    title: 'Pinas For',
+    title: 'Pinas Forward Academy',
     description: 'E-ligtas: Blocking the Dangers of the Online World.',
     date: 'August 20, 2021',
   },
@@ -44,7 +46,7 @@ export const achievements = [
 ];
 
 export const projects = [
-  { id: 1, title: 'Portfolio', description: 'This is my portfolio', link: 'https://your-portfolio.com', githubLink: 'https://github.com/m4rsu-code/Portfolio/tree/main/my-portfolio'},
+  { id: 1, title: 'Portfolio', description: 'This is my portfolio', githubLink: 'https://github.com/m4rsu-code/Portfolio/tree/main/my-portfolio'},
   { id: 2, title: 'Ttracker', description: 'This is a document tracking system called Ttracker I built during my internship. It handles ordinances, resolutions, and motions, with upload and download features.', githubLink: 'https://github.com/m4rsu-code/Ttracker/tree/main/Tracker' },
   { id: 3, title: 'd.resort', description: 'This is our capstone project — an IoT-based employee management system with a fingerprint scanner for attendance tracking and salary computation. It also includes a booking system managed by employees.', githubLink: 'https://github.com/m4rsu-code/d.resort'},
   { id: 4, title: 'Fithub', description: 'This is a fitness website that i make during my 2nd year in college', githubLink: 'https://github.com/m4rsu-code/FITHUB/tree/main/Fithub'},
@@ -112,14 +114,15 @@ export const figmaProjects = [
 ];
 
 export const skills = [
-  { name: 'React', proficiency: 40 },
-  { name: 'React-Native', proficiency: 40 },
+  { name: 'React', proficiency: 50 },
+  { name: 'React-Native', proficiency: 50 },
   { name: 'HTML', proficiency: 70 },
   { name: 'CSS', proficiency: 50 },
   { name: 'Tailwind CSS', proficiency: 50 },
   { name: 'JavaScript', proficiency: 35 },
-  { name: 'Python', proficiency: 35 },
-  { name: 'Laravel', proficiency: 25 },
+  { name: 'Python', proficiency: 30 },
+  { name: 'Laravel', proficiency: 30 },
+  { name: 'PHP', proficiency: 30 },
   { name: 'Figma', proficiency: 70 },
 ];
 

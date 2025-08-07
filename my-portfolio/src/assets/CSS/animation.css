@@ -1,15 +1,4 @@
-@keyframes glow {
-  0% {
-    box-shadow: 0 0 5px #00FFCC, 0 0 10px #00FFCC, 0 0 15px #00FFCC, 0 0 20px #00FFCC;
-  }
-  50% {
-    box-shadow: 0 0 10px #00FFCC, 0 0 20px #00FFCC, 0 0 30px #00FFCC, 0 0 40px #00FFCC;
-  }
-  100% {
-    box-shadow: 0 0 5px #00FFCC, 0 0 10px #00FFCC, 0 0 15px #00FFCC, 0 0 20px #00FFCC;
-  }
-}
-
+/* Glow Animation */
 @keyframes glow {
   0% {
     box-shadow: 0 0 5px #00FFCC, 0 0 10px #00FFCC;
@@ -26,17 +15,17 @@
   animation: glow 2s ease-in-out infinite;
 }
 
+/* Uneven Box Animation */
 .uneven-box {
-  transform: translateY(20px); /* move it downward initially */
-  
+  transform: translateY(20px);
   transition: transform 0.3s ease-in-out;
 }
 
 .image-container:hover .uneven-box {
-  transform: translateY(30px); /* move it further down on hover */
+  transform: translateY(30px);
 }
 
-/* Loader */
+/* Loader Animation */
 .loader-container {
   display: flex;
   align-items: center;
@@ -60,8 +49,8 @@
 }
 
 .loader-circle {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background: #00FFCC;
   border-radius: 50%;
   position: relative;
@@ -98,4 +87,29 @@
 @keyframes fade {
   0%, 100% { opacity: 0.6; }
   50% { opacity: 1; }
+}
+
+/* SVG Blob Image Container */
+.blob-image-wrapper {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: -80px; /* Adjusted for better alignment */
+}
+
+.blob-image-wrapper svg {
+  width: 550px;
+  height: 550px;
+}
+
+/* Shadow Blob Animation */
+.shadow-blob {
+  position: absolute;
+  top: 10px; /* Slight offset for shadow effect */
+  left: 10px;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 204, 0.7)); /* Enhanced glow with spread */
+}
+
+.shadow-path {
+  animation: wave-blob 6s ease-in-out infinite;
 }
