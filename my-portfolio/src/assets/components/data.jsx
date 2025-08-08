@@ -114,11 +114,11 @@ export const figmaProjects = [
 ];
 
 export const skills = [
-  { name: 'React', proficiency: 50 },
-  { name: 'React-Native', proficiency: 50 },
-  { name: 'HTML', proficiency: 50 },
-  { name: 'CSS', proficiency: 50 },
-  { name: 'Tailwind CSS', proficiency: 50 },
+  { name: 'React', proficiency: 45 },
+  { name: 'React-Native', proficiency: 45 },
+  { name: 'HTML', proficiency: 45 },
+  { name: 'CSS', proficiency: 45 },
+  { name: 'Tailwind CSS', proficiency: 45 },
   { name: 'JavaScript', proficiency: 35 },
   { name: 'Python', proficiency: 30 },
   { name: 'Laravel', proficiency: 30 },
